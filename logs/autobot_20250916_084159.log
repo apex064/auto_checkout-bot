@@ -1,0 +1,4 @@
+2025-09-16 08:42:00,106 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-16 08:42:00,107 - INFO - logging in using static token
+2025-09-16 08:42:22,688 - INFO - Shard ID None has connected to Gateway (Session ID: 73044d3652d708359826631425a9e0af).
+2025-09-16 08:42:24,692 - INFO - Logged in as Apex064#4407

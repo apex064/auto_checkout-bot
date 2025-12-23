@@ -1,0 +1,40 @@
+2025-09-26 09:57:23,728 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-26 09:57:23,730 - INFO - logging in using static token
+2025-09-26 09:57:30,177 - INFO - Shard ID None has connected to Gateway (Session ID: e08bf1a37ea0b17a087e9e4272c81ad6).
+2025-09-26 09:57:32,494 - INFO - Logged in as Apex064#4407
+2025-09-26 09:57:42,120 - INFO - Received message: Item Restocked
+Fall Plaid Lightweight Throw Blanket Brown - Hearth & Hand™ with Magnolia
+Quick Tasks
+[LightningMobile]
+Links
+Target - https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+Image
+https://target.scene7.com/is/image/Target/GUEST_0f34f1d3-f0e6-4370-9b4a-6e6ef9f74e60
+2025-09-26 09:57:42,122 - INFO - Detected target product URL via keyword scraping (target): https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-26 09:57:42,122 - INFO - Dispatching to target bot for URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-26 09:57:42,124 - INFO - Starting browser for Target...
+2025-09-26 09:58:34,177 - INFO - Opened Target homepage
+2025-09-26 09:58:44,975 - INFO - Clicked Account button
+2025-09-26 09:58:59,949 - INFO - Clicked Sign in link
+2025-09-26 09:59:05,935 - INFO - Entered email: middlefingle000@gmail.com
+2025-09-26 09:59:06,414 - INFO - Clicked Continue after email
+2025-09-26 09:59:11,444 - INFO - Clicked 'Enter your password'
+2025-09-26 09:59:11,720 - INFO - Entered password
+2025-09-26 09:59:12,040 - INFO - Clicked 'Sign in with password'
+2025-09-26 09:59:28,631 - INFO - No phone number page — continuing to home page
+2025-09-26 09:59:28,686 - INFO - Login confirmed — detected header: Hi, michael
+2025-09-26 09:59:28,686 - INFO - Attempt #1 — Checking product stock...
+2025-09-26 09:59:50,213 - INFO - Navigated to product page: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-26 09:59:50,478 - INFO - Product page loaded
+2025-09-26 09:59:51,820 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feea53a8ad0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10c18ee995a6bcd17a098fbe699ce1a8/element
+2025-09-26 09:59:51,825 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feea535e990>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10c18ee995a6bcd17a098fbe699ce1a8/element
+2025-09-26 09:59:51,830 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feea535ed50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10c18ee995a6bcd17a098fbe699ce1a8/element
+2025-09-26 09:59:51,835 - WARNING - Product out of stock or Add to cart button not clickable
+2025-09-26 09:59:51,837 - INFO - Product not in stock — refreshing in 10 seconds
+2025-09-26 10:00:01,838 - INFO - Attempt #2 — Checking product stock...
+2025-09-26 10:00:01,840 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feea5388c30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10c18ee995a6bcd17a098fbe699ce1a8/url
+2025-09-26 10:00:01,841 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feea54e32f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10c18ee995a6bcd17a098fbe699ce1a8/url
+2025-09-26 10:00:01,842 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feea52f2140>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/10c18ee995a6bcd17a098fbe699ce1a8/url
+2025-09-26 10:00:01,843 - ERROR - Target bot failed: HTTPConnectionPool(host='localhost', port=33791): Max retries exceeded with url: /session/10c18ee995a6bcd17a098fbe699ce1a8/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feea52f2470>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-09-26 10:00:01,843 - INFO - Script finished — closing browser
+2025-09-26 10:00:01,874 - INFO - ensuring close

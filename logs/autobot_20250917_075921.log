@@ -1,0 +1,64 @@
+2025-09-17 07:59:22,477 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-17 07:59:22,478 - INFO - logging in using static token
+2025-09-17 07:59:55,567 - INFO - Shard ID None has connected to Gateway (Session ID: 503f8df131112cbdadac5d6ddb8b702a).
+2025-09-17 07:59:57,572 - INFO - Logged in as Apex064#4407
+2025-09-17 08:01:40,582 - INFO - Received message: Item Restocked
+Fall Plaid Lightweight Throw Blanket Brown - Hearth & Hand™ with Magnolia
+Quick Tasks
+[LightningMobile]
+Links
+Target - https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+Image
+https://target.scene7.com/is/image/Target/GUEST_0f34f1d3-f0e6-4370-9b4a-6e6ef9f74e60
+2025-09-17 08:01:40,585 - INFO - Detected target product URL via keyword scraping (target): https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:01:40,587 - INFO - Dispatching to target bot for URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:01:40,590 - INFO - Starting browser for Target...
+2025-09-17 08:05:34,473 - INFO - Opened Target homepage
+2025-09-17 08:05:45,758 - INFO - Clicked Account button
+2025-09-17 08:07:55,495 - INFO - Clicked Sign in link
+2025-09-17 08:08:17,841 - INFO - Entered email: middlefingle000@gmail.com
+2025-09-17 08:08:18,395 - INFO - Clicked Continue after email
+2025-09-17 08:08:38,966 - INFO - Clicked 'Enter your password'
+2025-09-17 08:08:39,299 - INFO - Entered password
+2025-09-17 08:08:39,616 - INFO - Clicked 'Sign in with password'
+2025-09-17 08:10:16,853 - INFO - No phone number page — continuing to home page
+2025-09-17 08:10:16,900 - INFO - Login confirmed — detected header: Hi, michael
+2025-09-17 08:10:16,900 - INFO - Attempt #1 — Checking product stock...
+2025-09-17 08:14:11,958 - INFO - Navigated to product page: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:14:12,106 - INFO - Product page loaded
+2025-09-17 08:14:12,809 - INFO - Clicked Add to cart — waiting 5 seconds
+2025-09-17 08:15:19,134 - INFO - Navigated to direct checkout page
+2025-09-17 08:15:19,316 - INFO - Checkout page loaded
+2025-09-17 08:15:56,091 - INFO - Shipping info may already be saved — skipping
+2025-09-17 08:16:17,180 - ERROR - Payment filling failed: Message: 
+Stacktrace:
+#0 0x5625b146908a <unknown>
+#1 0x5625b0f08a70 <unknown>
+#2 0x5625b0f5a907 <unknown>
+#3 0x5625b0f5ab01 <unknown>
+#4 0x5625b0fa8d54 <unknown>
+#5 0x5625b0f8040d <unknown>
+#6 0x5625b0fa614f <unknown>
+#7 0x5625b0f801b3 <unknown>
+#8 0x5625b0f4c59b <unknown>
+#9 0x5625b0f4d971 <unknown>
+#10 0x5625b142e25b <unknown>
+#11 0x5625b1431fa9 <unknown>
+#12 0x5625b1415339 <unknown>
+#13 0x5625b1432b58 <unknown>
+#14 0x5625b13f9c1f <unknown>
+#15 0x5625b1456118 <unknown>
+#16 0x5625b14562f6 <unknown>
+#17 0x5625b1468066 <unknown>
+#18 0x7fcd5fa969cb <unknown>
+#19 0x7fcd5fb1aa0c <unknown>
+
+2025-09-17 08:16:17,305 - INFO - Dry run: not placing order (set place_order=true in config.json to buy)
+2025-09-17 08:16:17,306 - INFO - Script finished — closing browser
+2025-09-17 08:16:27,386 - INFO - Detected target product URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:16:27,386 - INFO - Dispatching to target bot for URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:16:27,388 - INFO - Starting browser for Target...
+2025-09-17 08:16:54,050 - ERROR - Target bot failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-09-17 08:16:54,050 - INFO - Script finished — closing browser
+2025-09-17 08:16:54,090 - INFO - ensuring close
+2025-09-17 08:16:54,092 - INFO - ensuring close

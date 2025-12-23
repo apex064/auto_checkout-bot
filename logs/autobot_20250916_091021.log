@@ -1,0 +1,828 @@
+2025-09-16 09:10:22,434 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-16 09:10:22,435 - INFO - logging in using static token
+2025-09-16 09:10:39,695 - INFO - Shard ID None has connected to Gateway (Session ID: 1935a3f855e850463803d1aa580dfd0d).
+2025-09-16 09:10:43,031 - INFO - Logged in as Apex064#4407
+2025-09-16 09:11:26,121 - INFO - Received message: Item Restocked
+Pokemon Prismatic Evolutions 8 Mini-Tins with Promo Cards, 2-pack
+Links
+Walmart - https://www.walmart.com/ip/12345678
+Target - https://www.target.com/p/-/A1B2C3D4
+BestBuy - https://www.bestbuy.com/site/987654321.p
+SKU 12345678
+2025-09-16 09:11:26,125 - INFO - Detected target product URL via keyword scraping (walmart): https://www.walmart.com/ip/12345678
+2025-09-16 09:11:26,126 - INFO - Dispatching to walmart bot for URL: https://www.walmart.com/ip/12345678
+2025-09-16 09:11:26,126 - INFO - Starting browser for Walmart...
+2025-09-16 09:12:10,998 - WARNING - Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:12:21,003 - WARNING - Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:12:31,011 - WARNING - Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:12:41,013 - WARNING - Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:12:51,015 - WARNING - Shard ID None heartbeat blocked for more than 50 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:13:01,016 - WARNING - Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:13:11,021 - WARNING - Shard ID None heartbeat blocked for more than 70 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:13:21,023 - WARNING - Shard ID None heartbeat blocked for more than 80 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 32, in login
+    self.driver.get("https://www.walmart.com/")
+  File "/home/apex064/.local/lib/python3.13/site-packages/undetected_chromedriver/__init__.py", line 665, in get
+    return super().get(url)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:13:24,389 - INFO - Opened Walmart homepage
+2025-09-16 09:13:25,213 - INFO - Clicked Account link
+2025-09-16 09:13:27,089 - INFO - Clicked 'Sign in or create account'
+2025-09-16 09:13:31,045 - WARNING - Shard ID None heartbeat blocked for more than 90 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 57, in login
+    email_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@aria-label='Phone number or email']")))
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 92, in until
+    time.sleep(self._poll)
+
+2025-09-16 09:13:41,053 - WARNING - Shard ID None heartbeat blocked for more than 100 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 57, in login
+    email_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@aria-label='Phone number or email']")))
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 86, in until
+    value = method(self._driver)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/expected_conditions.py", line 81, in _predicate
+    return driver.find_element(*locator)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 738, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:13:51,059 - WARNING - Shard ID None heartbeat blocked for more than 110 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 57, in login
+    email_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@aria-label='Phone number or email']")))
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 86, in until
+    value = method(self._driver)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/expected_conditions.py", line 81, in _predicate
+    return driver.find_element(*locator)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 738, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:14:01,079 - WARNING - Shard ID None heartbeat blocked for more than 120 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 59, in login
+    email_input.send_keys(self.config["email"])
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 230, in send_keys
+    self._execute(
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:14:02,990 - INFO - Entered email: your_email@example.com
+2025-09-16 09:14:11,089 - WARNING - Shard ID None heartbeat blocked for more than 130 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 69, in login
+    password_radio = wait.until(EC.element_to_be_clickable((By.XPATH, "//label[contains(., 'Password')]//input")))
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 86, in until
+    value = method(self._driver)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/expected_conditions.py", line 354, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 738, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 342, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 297, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 318, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/usr/lib/python3.13/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/usr/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+
+2025-09-16 09:14:21,094 - WARNING - Shard ID None heartbeat blocked for more than 140 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/apex064/autobot/main.py", line 21, in <module>
+    discord_bot.run()
+  File "/home/apex064/autobot/utils/discord.py", line 178, in run
+    self.client.run(self.token)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once
+    handle._run()
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/apex064/.local/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/apex064/autobot/utils/discord.py", line 62, in on_message
+    success = await self.dispatcher.dispatch(url)
+  File "/home/apex064/autobot/dispatcher.py", line 58, in dispatch
+    success = bot.run()
+  File "/home/apex064/autobot/bots/walmart.py", line 139, in run
+    if not self.login():
+  File "/home/apex064/autobot/bots/walmart.py", line 69, in login
+    password_radio = wait.until(EC.element_to_be_clickable((By.XPATH, "//label[contains(., 'Password')]//input")))
+  File "/home/apex064/.local/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 92, in until
+    time.sleep(self._poll)
+
+2025-09-16 09:14:22,645 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff62e2d0c20>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/896d659fc61a562a415ae8bcdf841245/element
+2025-09-16 09:14:22,648 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff62e286350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/896d659fc61a562a415ae8bcdf841245/element
+2025-09-16 09:14:22,650 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff62e286c10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/896d659fc61a562a415ae8bcdf841245/element
+2025-09-16 09:14:22,651 - ERROR - Walmart bot failed: HTTPConnectionPool(host='localhost', port=54237): Max retries exceeded with url: /session/896d659fc61a562a415ae8bcdf841245/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff62e2b1220>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-09-16 09:14:22,652 - INFO - Script finished — closing browser
+2025-09-16 09:14:23,568 - INFO - ensuring close

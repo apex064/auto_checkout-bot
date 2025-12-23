@@ -1,0 +1,40 @@
+{
+  "discord_token": 
+  "email": 
+  "password": 
+  "account_name":
+  "headless": false,
+  "place_order": false,
+  "refresh_interval": 10,
+
+  "target_product_url": "https://www.target.com/p/...",
+  "walmart_product_url": "https://www.walmart.com/ip/...",
+  "bestbuy_product_url": "https://www.bestbuy.com/site/...",
+
+  "card": {
+    "number": "4111111111111111",
+    "exp": "12/25",
+    "cvv": "123"
+  },
+
+  "shipping": {
+    "name": "Your Name",
+    "address": "123 Main St",
+    "city": "Your City",
+    "state": "CA",
+    "zip": "12345",
+    "phone": "555-123-4567"
+  },
+
+  "target_products": [
+    "Pokemon Prismatic Evolutions 8 Mini-Tins with Promo Cards",
+    "Booster Bundle",
+    "Fall Plaid Lightweight Throw Blanket Brown - Hearth & Hand™ with Magnolia"
+  ],
+
+  "priority_sites": [
+    "walmart",
+    "bestbuy",
+    "target"
+  ]
+}

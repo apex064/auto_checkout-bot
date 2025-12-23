@@ -1,0 +1,18 @@
+2025-09-16 23:02:34,169 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-16 23:02:34,170 - INFO - logging in using static token
+2025-09-16 23:03:14,124 - INFO - Shard ID None has connected to Gateway (Session ID: 02ca7ce4bcef7eb1163b3a13e2c4b3c3).
+2025-09-16 23:03:16,127 - INFO - Logged in as Apex064#4407
+2025-09-16 23:06:37,312 - INFO - Received message: Item Restocked
+Fall Plaid Lightweight Throw Blanket Brown - Hearth & Hand™ with Magnolia
+Quick Tasks
+[LightningMobile]
+Links
+Target - https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+Image
+https://target.scene7.com/is/image/Target/GUEST_0f34f1d3-f0e6-4370-9b4a-6e6ef9f74e60
+2025-09-16 23:06:37,317 - INFO - Detected target product URL via keyword scraping (target): https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-16 23:06:37,317 - INFO - Dispatching to target bot for URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-16 23:06:37,319 - INFO - Starting browser for Target...
+2025-09-16 23:09:07,762 - ERROR - Target bot failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-09-16 23:09:07,767 - INFO - Script finished — closing browser
+2025-09-16 23:09:07,807 - INFO - ensuring close

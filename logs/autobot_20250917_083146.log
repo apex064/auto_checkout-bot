@@ -1,0 +1,63 @@
+2025-09-17 08:31:47,428 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-17 08:31:47,429 - INFO - logging in using static token
+2025-09-17 08:32:07,803 - INFO - Shard ID None has connected to Gateway (Session ID: bbdabd42e808c3419a185124c02d3c63).
+2025-09-17 08:32:10,639 - INFO - Logged in as Apex064#4407
+2025-09-17 08:32:32,962 - INFO - Received message: Item Restocked
+Fall Plaid Lightweight Throw Blanket Brown - Hearth & Hand™ with Magnolia
+Quick Tasks
+[LightningMobile]
+Links
+Target - https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+Image
+https://target.scene7.com/is/image/Target/GUEST_0f34f1d3-f0e6-4370-9b4a-6e6ef9f74e60
+2025-09-17 08:32:32,963 - INFO - Detected target product URL via keyword scraping (target): https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:32:32,963 - INFO - Dispatching to target bot for URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:32:32,964 - INFO - Starting browser for Target...
+2025-09-17 08:34:41,083 - INFO - Opened Target homepage
+2025-09-17 08:34:52,405 - INFO - Clicked Account button
+2025-09-17 08:36:21,202 - INFO - Clicked Sign in link
+2025-09-17 08:36:50,128 - INFO - Entered email: middlefingle000@gmail.com
+2025-09-17 08:36:50,508 - INFO - Clicked Continue after email
+2025-09-17 08:37:04,457 - INFO - Clicked 'Enter your password'
+2025-09-17 08:37:04,692 - INFO - Entered password
+2025-09-17 08:37:04,986 - INFO - Clicked 'Sign in with password'
+2025-09-17 08:38:21,354 - INFO - No phone number page — continuing to home page
+2025-09-17 08:38:21,410 - INFO - Login confirmed — detected header: Hi, michael
+2025-09-17 08:38:21,410 - INFO - Attempt #1 — Checking product stock...
+2025-09-17 08:43:21,498 - ERROR - Target bot failed: Message: timeout: Timed out receiving message from renderer: 297.245
+  (Session info: chrome=140.0.7339.127)
+Stacktrace:
+#0 0x56409707508a <unknown>
+#1 0x564096b14a70 <unknown>
+#2 0x564096afcd7c <unknown>
+#3 0x564096afca85 <unknown>
+#4 0x564096afa8ee <unknown>
+#5 0x564096afb23f <unknown>
+#6 0x564096b09c03 <unknown>
+#7 0x564096b22fce <unknown>
+#8 0x564096b297db <unknown>
+#9 0x564096afb980 <unknown>
+#10 0x564096b22d27 <unknown>
+#11 0x564096bb24b3 <unknown>
+#12 0x564096b8c1b3 <unknown>
+#13 0x564096b5859b <unknown>
+#14 0x564096b59971 <unknown>
+#15 0x56409703a25b <unknown>
+#16 0x56409703dfa9 <unknown>
+#17 0x564097021339 <unknown>
+#18 0x56409703eb58 <unknown>
+#19 0x564097005c1f <unknown>
+#20 0x564097062118 <unknown>
+#21 0x5640970622f6 <unknown>
+#22 0x564097074066 <unknown>
+#23 0x7fda9a6969cb <unknown>
+#24 0x7fda9a71aa0c <unknown>
+
+2025-09-17 08:43:21,498 - INFO - Script finished — closing browser
+2025-09-17 08:43:39,470 - INFO - Detected target product URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:43:39,470 - INFO - Dispatching to target bot for URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-17 08:43:39,472 - INFO - Starting browser for Target...
+2025-09-17 08:43:55,175 - ERROR - Target bot failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-09-17 08:43:55,176 - INFO - Script finished — closing browser
+2025-09-17 08:43:55,206 - INFO - ensuring close
+2025-09-17 08:43:55,207 - INFO - ensuring close

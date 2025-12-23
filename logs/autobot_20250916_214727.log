@@ -1,0 +1,24 @@
+2025-09-16 21:47:28,075 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-16 21:47:28,076 - INFO - logging in using static token
+2025-09-16 21:47:59,733 - INFO - Shard ID None has connected to Gateway (Session ID: ae67e6640cdccfc75a847b534f56f4b1).
+2025-09-16 21:48:01,736 - INFO - Logged in as Apex064#4407
+2025-09-16 21:48:14,576 - INFO - Received message: Item Restocked
+Fall Plaid Lightweight Throw Blanket Brown - Hearth & Hand™ with Magnolia
+Quick Tasks
+[LightningMobile]
+Links
+Target - https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+Image
+https://target.scene7.com/is/image/Target/GUEST_0f34f1d3-f0e6-4370-9b4a-6e6ef9f74e60
+2025-09-16 21:48:14,577 - INFO - Detected target product URL via keyword scraping (target): https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-16 21:48:14,577 - INFO - Dispatching to target bot for URL: https://www.target.com/p/fall-plaid-lightweight-throw-blanket-brown-hearth-38-hand-8482-with-magnolia/-/A-93551052
+2025-09-16 21:48:14,579 - INFO - Starting browser for Target...
+2025-09-16 21:51:57,686 - INFO - Opened Target homepage
+2025-09-16 21:52:08,977 - INFO - Clicked Account button
+2025-09-16 21:54:15,123 - ERROR - Could not find Sign in link
+2025-09-16 21:54:15,128 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99ea286850>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ab888f9998a9954704c28e2a9b7e80a3/screenshot
+2025-09-16 21:54:15,130 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99ea286990>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ab888f9998a9954704c28e2a9b7e80a3/screenshot
+2025-09-16 21:54:15,138 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99ea2b0fc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ab888f9998a9954704c28e2a9b7e80a3/screenshot
+2025-09-16 21:54:15,143 - ERROR - Target bot failed: HTTPConnectionPool(host='localhost', port=56795): Max retries exceeded with url: /session/ab888f9998a9954704c28e2a9b7e80a3/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99ea2b1350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-09-16 21:54:15,144 - INFO - Script finished — closing browser
+2025-09-16 21:54:15,392 - INFO - ensuring close

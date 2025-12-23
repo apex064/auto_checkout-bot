@@ -1,0 +1,17 @@
+2025-09-16 09:15:54,313 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-09-16 09:15:54,315 - INFO - logging in using static token
+2025-09-16 09:16:18,404 - INFO - Shard ID None has connected to Gateway (Session ID: 33485842039c9a3c5bf30f235936cd01).
+2025-09-16 09:16:21,985 - INFO - Logged in as Apex064#4407
+2025-09-16 09:16:35,760 - INFO - Received message: Item Restocked
+Pokemon Prismatic Evolutions 8 Mini-Tins with Promo Cards, 2-pack
+Links
+Walmart - https://www.walmart.com/ip/12345678
+Target - https://www.target.com/p/-/A1B2C3D4
+BestBuy - https://www.bestbuy.com/site/987654321.p
+SKU 12345678
+2025-09-16 09:16:35,760 - INFO - Detected target product URL via keyword scraping (walmart): https://www.walmart.com/ip/12345678
+2025-09-16 09:16:35,762 - INFO - Dispatching to walmart bot for URL: https://www.walmart.com/ip/12345678
+2025-09-16 09:16:35,763 - INFO - Starting browser for Walmart...
+2025-09-16 09:17:18,244 - ERROR - Walmart bot failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-09-16 09:17:18,245 - INFO - Script finished — closing browser
+2025-09-16 09:17:18,261 - INFO - ensuring close
